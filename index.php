@@ -16,7 +16,9 @@
     	</div>
     </div>
 
-    
+    <div id="erf" class="popup mfp-hide">
+        Popup content
+    </div>
 
     <div class="bit-1 news">
         <h2>Make sure to catch Joe and the boys on the road in June for the <a href="shows" class="erf">Eagle Rock Fire Tour</a><br>with special guest <a href="http://brianwrightmusic.com/" target="_blank">Brian Wright</a>.</h2>

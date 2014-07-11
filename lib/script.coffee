@@ -81,3 +81,11 @@ $ ->
                 $("#signup").removeClass "loading"
                 $("#email").val "Check Your Inbox!"
                 $("#email, #submit").prop "disabled", true
+
+
+    $.magnificPopup.open
+    	items:
+        	src: '.popup'
+        	type: 'inline'
+
+

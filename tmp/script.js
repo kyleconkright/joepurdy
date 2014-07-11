@@ -50,7 +50,7 @@
         });
       }
     });
-    return $("#signup").on("submit", function(e) {
+    $("#signup").on("submit", function(e) {
       var email, id, ref, source;
       email = $("#email").val();
       source = $("#source_campaign").val();
@@ -76,6 +76,12 @@
           return $("#email, #submit").prop("disabled", true);
         }
       });
+    });
+    return $.magnificPopup.open({
+      items: {
+        src: '.popup',
+        type: 'inline'
+      }
     });
   });
 
